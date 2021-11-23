@@ -49,7 +49,7 @@ export default function SignUp({ navigation })
        else mechanic = false;
 
       setLoading(false);
-      navigation.goBack(null);
+      // navigation.goBack(null);
      
 
     }

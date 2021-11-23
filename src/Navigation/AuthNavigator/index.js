@@ -12,8 +12,8 @@ import MechanicRegistration from '../../Screens/Auth/MechanicRegistration';
     <AuthStack.Navigator>
         
             <AuthStack.Screen name='Login' component={Login}></AuthStack.Screen>
-            <AuthStack.Screen name='MechanicRegistration' component={MechanicRegistration}></AuthStack.Screen>
             <AuthStack.Screen name='SignUp' component={SignUp}></AuthStack.Screen>
+            <AuthStack.Screen name='MechanicRegistration' component={MechanicRegistration}></AuthStack.Screen>
    
     </AuthStack.Navigator>
 )
